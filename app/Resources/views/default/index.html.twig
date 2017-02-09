@@ -2,11 +2,11 @@
 
 {% block body %}
     <button type="button">start</button>
-    <form id="selection">
-        <input type="text" placeholder="email joueur1"/>
-        <input type="text" placeholder="email joueur2"/>
-        <input type="text" placeholder="email joueur3"/>
-        <input type="text" placeholder="email joueur4"/>
+    <form id="selection" method="POST" action={(path('addPlayers))}">
+        <input type="text" name="j1" placeholder="email joueur1"/>
+        <input type="text" name="j2" placeholder="email joueur2"/>
+        <input type="text" name="j3" placeholder="email joueur3"/>
+        <input type="text" name="j4" placeholder="email joueur4"/>
         <input type="submit" value="valider"/>
     </form>
 {% endblock %}
