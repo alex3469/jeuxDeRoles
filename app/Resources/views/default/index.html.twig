@@ -1,16 +1,14 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <button type="button">start</button>
+
+    <button>Entrez</button>
     <form id="selection" method="POST" action="{{path('addPlayers')}}">
-        <input type="text" name="j1" placeholder="email joueur1"/>
-        <input type="text" name="j2" placeholder="email joueur2"/>
-        <input type="text" name="j3" placeholder="email joueur3"/>
-        <input type="text" name="j4" placeholder="email joueur4"/>
-        <input type="submit" value="valider"/>
+        <input type="text" name="j1" placeholder="email joueur 1"/>
+        <input type="text" name="j2" placeholder="email joueur 2"/>
+        <input type="text" name="j3" placeholder="email joueur 3"/>
+        <input type="text" name="j4" placeholder="email joueur 4"/>
+        <input type="submit" value="Valider"/>
     </form>
 {% endblock %}
 
-{% block stylesheets %}
-
-{% endblock %}

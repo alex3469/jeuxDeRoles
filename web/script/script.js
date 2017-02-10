@@ -1,4 +1,4 @@
-//quand le document est pret ( a la fin du chargeùent de la page)
+//quand le document est pret ( a la fin du chargement de la page)
 $(document).ready(function () {
     centerButton();
     centerFormulaire();
